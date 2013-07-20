@@ -1,18 +1,18 @@
 %global packname dichromat
 %global rlibdir %{_libdir}/R/library
 
-Name: R-%{packname}
-Version: 2.0_0
-Release: 1
-Summary: Color Schemes for Dichromats
-Group: Sciences/Mathematics
-License: GPLv2
-URL: http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0: http://cran.r-project.org/src/contrib/%{packname}_2.0-0.tar.gz
-BuildArch: noarch
-Requires: R-stats
-BuildRequires: R-devel Rmath-devel texlive-collection-latex
-BuildRequires: R-stats
+Name:             R-%{packname}
+Version:          2.0_0
+Release:          1
+Summary:          Color Schemes for Dichromats
+Group:            Sciences/Mathematics
+License:          GPLv2
+URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.0-0.tar.gz
+BuildArch:        noarch
+Requires:         R-stats
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-stats
 
 %description
 Collapse red-green or green-blue distinctions to simulate
