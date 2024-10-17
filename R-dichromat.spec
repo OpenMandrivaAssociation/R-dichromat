@@ -7,7 +7,7 @@ Release:          1
 Summary:          Color Schemes for Dichromats
 Group:            Sciences/Mathematics
 License:          GPLv2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.0-0.tar.gz
 BuildArch:        noarch
 Requires:         R-stats
